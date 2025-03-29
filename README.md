@@ -27,20 +27,20 @@ This project focuses on developing an Automated Rolling Forecasting Model for Me
   
 ## Methodology
 
-- **Data Collection & Preprocessing**
+ **Data Collection & Preprocessing**
 - Cleaned missing values and created lagged features, rolling statistics, and difference features.
 - Incorporated temporal features like month and year to capture seasonality.
 - Integrated key financial KPIs (DNR%, Price%, New Business Contributions).
 
--**Model Development**
+  **Model Development**
 - Time-Series Models: ARIMA and SARIMA to capture trends and seasonality.
 - Machine Learning Model: XGBoost for capturing non-linear relationships.
 - Hyperparameter Tuning: Optimized using GridSearchCV with TimeSeriesSplit.
 
- -**Interactive Forecasting Tool**
+  **Interactive Forecasting Tool**
  - Built using ipywidgets to allow parameter adjustments.
 - Outputs forecasted revenue saved as CSV for Power BI integration.
 
- -**Power BI Dashboard**
+ **Power BI Dashboard**
 - Enabled dynamic filtering by Region, LOB, Product, Year, Month, and KPIs.
 - Visuals include forecasted revenue, historical trends, KPI adjustments, and detailed breakdown tables.
